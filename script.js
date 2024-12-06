@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Initialize Firebase
     firebase.initializeApp(firebaseConfig);
-
+ 
     // Reference to Firebase database
     const messagesRef = firebase.database().ref("Collected Data");
 
@@ -89,7 +89,7 @@ document.addEventListener("DOMContentLoaded", function () {
             messagesRef.push({ title, lie });
             document.getElementById("contactForm").reset();
         } else {
-            alert("Submit a lie you’ve been told here!");
+            alert("Hey Loser! Submit a Lie!");
         }
     });
  // Check if device is mobile
