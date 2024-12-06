@@ -221,6 +221,9 @@ input {
 
 /* Responsive adjustments for smaller devices */
 @media (max-width: 768px) {
+    .body {
+         padding-inline-start: 450px;
+    }
     .whitelies {
         display: none; /* Hide the original image on mobile */
     }
