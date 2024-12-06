@@ -567,13 +567,21 @@ textarea {
     .whitelies {
         display: none; /* Hide images or fixed elements causing overflow */
     }
+    .whitelies2 {
+        display: block;
+        position: relative;
+        width: 300px;
+        height: auto;
+    }
 
     .top-right-link2 {
-        position: static; /* Remove absolute positioning */
+        color: #f5f5dc;
+        right: 5px;
+        position: static;
         display: block;
-        font-size: 18px;
-        right: auto; /* Reset right position */
-        left: auto;  /* Reset left position */
+        background-color: #6d2525;
+        transition: background-color 0.3s;
+        font-size: 22px;
     }
 
     /* Fix for any other fixed-width elements */
