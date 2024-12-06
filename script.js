@@ -142,6 +142,21 @@ document.addEventListener("DOMContentLoaded", function () {
             });
         });
     }
+function setMinFontSize() {
+        const elements = document.querySelectorAll('.gridlite-pe-variable');
+        elements.forEach(element => {
+            const currentFontSize = parseInt(window.getComputedStyle(element).fontSize, 10);
+            if (currentFontSize < 31) {
+                element.style.fontSize = '31px'; // Set to 31px if smaller
+            }
+        });
+    }
+
+    // Run the function to ensure font size is set correctly
+    setMinFontSize();
+
+    // Optionally, adjust on window resize (if font size is dynamic)
+    window.addEventListener('resize', setMinFontSize);
 
     // Adjust textareas on input
     const textareas = document.querySelectorAll('textarea');
