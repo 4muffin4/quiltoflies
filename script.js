@@ -92,6 +92,17 @@ document.addEventListener("DOMContentLoaded", function () {
             alert("Submit a lie you’ve been told here!");
         }
     });
+ // Check if device is mobile
+    function isMobile() {
+        return window.innerWidth <= 768; // Mobile screen size breakpoint
+    }
+
+    // Set font variation styles on mobile for 'gridlite-pe-variable'
+    function setFontVariationForMobile(responseElement, font) {
+        if (isMobile() && font === 'gridlite-pe-variable') {
+            responseElement.style.fontVariationSettings = "'wght' 800, 'BACK' 200, 'RECT' 100, 'ELSH' 3";
+        }
+    }
 
     // Display messages from Firebase
     function displayData() {
@@ -123,6 +134,9 @@ document.addEventListener("DOMContentLoaded", function () {
                     </span>
                 `;
 
+                // Apply mobile font variation if using 'gridlite-pe-variable' font
+                setFontVariationForMobile(responseElement, selectedFont);
+                
                 randomizeFontColors(responseElement);
                 dataDisplay.appendChild(responseElement);
             });
@@ -144,5 +158,3 @@ document.addEventListener("DOMContentLoaded", function () {
     // Display data initially
     displayData();
 });
-
-
