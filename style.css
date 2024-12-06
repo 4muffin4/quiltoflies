@@ -560,7 +560,12 @@ textarea {
     transform: scale(1.05); /* Slightly enlarge on hover */
     color: #962c53;
 }
-@media (max-width: 768px) {
+@media only screen and (min-width: 768px) {
+    /* Styles for desktop view */
+    body {
+        font-size: 16px;
+        padding-left: 100px;
+    }
     .form-group {
         width: 100%; /* Full width for mobile */
         padding: 10px; /* Ensure padding works */
