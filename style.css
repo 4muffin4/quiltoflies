@@ -81,11 +81,17 @@ body {
     background-image: url('https://i.pinimg.com/736x/59/c0/d0/59c0d0876f2d7a502bdb6e813d0addbc.jpg');
     background-position: center;
     width: 100%;
-    max-width: 800px; 
+    padding: 20px;
+    display: flex;
+    max-width: 100%;
     align-items: center;
-    min-height: auto; /* Minimum height to fit the content */
+    min-height: 350px;
     border-radius: 15px;
-    cursor: url('/cursor.cur'), auto !important;
+    cursor: url(/cursor.cur), auto !important;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: stretch;
 }
 .form-group2:hover {
     transform: scale(1); /* Slightly enlarge on hover */
