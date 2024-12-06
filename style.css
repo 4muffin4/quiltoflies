@@ -568,10 +568,6 @@ textarea {
         display: none; /* Hide images or fixed elements causing overflow */
     }
 
-    .top-right-link {
-        display: none; /* Hide if necessary on mobile */
-    }
-
     .top-right-link2 {
         position: static; /* Remove absolute positioning */
         display: block;
