@@ -3,10 +3,9 @@
     margin: 0;
     padding: 0px;
     box-sizing: border-box;
-    font-variation-settings: 'wght' 900, 'BACK' 400, 'RECT' 120, 'ELSH' 3;
+    font-variation-settings: 'wght' 900, 'BACK' 200, 'RECT' 200, 'ELSH' 3;
     font-size: 20px;
     cursor: url('/cursor.cur'), auto !important;
-    cursor: inherit !important;
     cursor: url('/cursor.cur'), pointer;
     
 }
@@ -456,7 +455,7 @@ textarea {
 
 .example {
     font-family: "gridlite-pe-variable", sans-serif;
-    font-variation-settings: 'wght' 900, 'BACK' 400, 'RECT' 120, 'ELSH' 3;
+    font-variation-settings: 'wght' 900, 'BACK' 200, 'RECT' 200, 'ELSH' 3;
     font-size: 45px; /* Default size, can be overridden inline */
   }
   
