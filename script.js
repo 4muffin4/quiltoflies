@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", function () {
     // Color and style data
     const getRandomColor = () => ["#000000"][Math.floor(Math.random() * 1)];
     const backgrounds = [
-            "https://raw.githubusercontent.com/4muffin4/QUILT/main/images/1.jpg",
+            "https://raw.githubusercontent.com/4muffin4/QUILT/refs/heads/main/1.jpg",
             "https://raw.githubusercontent.com/4muffin4/QUILT/main//images/2.jpg",
             "https://raw.githubusercontent.com/4muffin4/QUILT/main//images/3.jpg",
             "https://raw.githubusercontent.com/4muffin4/QUILT/main//images/5.jpg",
