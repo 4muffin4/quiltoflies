@@ -2,7 +2,6 @@
 * {
     margin: 0;
     padding: 0px;
-    max-width: 100vw;
     box-sizing: border-box;
     font-variation-settings: 'wght' 900, 'BACK' 400, 'RECT' 120, 'ELSH' 3;
     font-size: 20px;
@@ -12,6 +11,12 @@
     
 }
 
+html, body {
+    overflow-x: visible; 
+    margin: 0; 
+    padding: 0;
+    width: 100%;
+}
 
 /* Body styling */
 body {
@@ -584,9 +589,6 @@ textarea {
         max-width: 100%;
     }
 
-    .stitches {
-        font-size: 50px; /* Scale down text size on mobile */
-    }
 }
 
 
