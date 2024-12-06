@@ -1,7 +1,7 @@
 /* Reset defaults */
 * {
     margin: 0;
-    padding: 20px;
+    padding: 10px;
     display: flex;
     box-sizing: border-box;
     font-variation-settings: 'wght' 900, 'BACK' 400, 'RECT' 120, 'ELSH' 3;
@@ -11,16 +11,11 @@
     cursor: url('/cursor.cur'), pointer;
     
 }
-html {
-    scroll-behavior: auto;
-}
 
 
 /* Body styling */
 body {
     color:#962c53;
-
-
     background-color: #F5F5DC;
     font-family: p22-folk-art-block, sans-serif;
     font-style: normal;
@@ -584,11 +579,3 @@ textarea {
     color: #962c53;
 }
 
-@media screen and (max-width: 768px) {
-    body {
-    
-        transform: scale(0.8), translate(-10%, 0);
-        transform-origin: center; 
-        overflow-x: hidden;
-    }
-}
