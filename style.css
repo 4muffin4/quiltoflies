@@ -1,7 +1,7 @@
 /* Reset defaults */
 * {
     margin: 0;
-    padding: 0px;
+    padding: 5px;
     box-sizing: border-box;
     font-variation-settings: 'wght' 900, 'BACK' 200, 'RECT' 200, 'ELSH' 3;
     font-size: 20px;
@@ -132,6 +132,8 @@ input {
 .div1{
     grid-area:  1 / 1 / 2 / 2 ;
     display: flex;
+    margin: 60px;
+    margin-bottom: 20px;
     flex-direction: column;
     align-items: center;
     text-align:center;
@@ -528,7 +530,7 @@ textarea {
 }
 .h6 {
     display: flex;
-    font-size: 20px;
+    font-size: 30px;
     color: #962c53;
     align-items: center;
     font-family: "p22-folk-art-block", sans-serif;
