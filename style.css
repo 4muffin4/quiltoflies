@@ -1,4 +1,3 @@
-/* Reset defaults */
 * {
     margin: 0;
     padding: 5px;
@@ -171,7 +170,7 @@ input {
 
 .top-right-link {
     position: absolute;
-    top: 240px; /* Adjusted for better spacing */
+    top: 270px; /* Adjusted for better spacing */
     right: 20px;
     max-width: 100%; /* Ensure it doesn’t extend beyond screen */
     left: auto;
