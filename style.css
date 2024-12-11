@@ -23,9 +23,9 @@ body {
     font-family: p22-folk-art-block, sans-serif;
     font-style: normal;
     background-image: url('https://m.media-amazon.com/images/I/7122QZhT1qL._AC_SX679_.jpg');
-    background-position: center center; /* Center the image */
-    background-attachment: fixed; /* Keep the background fixed while scrolling */
-    margin: 0; /* Remove default margin */
+    background-position: center center; 
+    background-attachment: fixed; 
+    margin: 0; 
     font-weight: 400;
     display: flex;
     max-width: 400vh;
@@ -43,7 +43,7 @@ body {
 }
 .top-right-link {
     position: absolute;
-    top: 200px;
+    top: 280px;
     right: 10px;
     font-size: 16px;
     color: #000000;
@@ -202,15 +202,15 @@ input {
     cursor: url('/cursor.cur'), auto !important;
 }
 
-/* Default Image Styling */
 .whitelies {
     position: absolute;
     top: -45px;
     right: 10px;
     width: 300px;
+    padding-top: 40px;
     height: auto;
     cursor: url('/cursor.cur'), auto !important;
-    display: block; /* Visible by default */
+    display: block;
 }
 
 .whitelies2 {
@@ -224,8 +224,8 @@ input {
     display: flex;
     justify-content: center;
     align-items: center;
-     width: 100%; /* Make container take full available width */
-    max-width: 400px; /* Set a max-width for larger screens */
+     width: 100%; 
+    max-width: 400px;
     margin: 0 auto;
 }
 
@@ -287,8 +287,8 @@ h2.sub-heading {
     align-items: center;
     background-position: center;
     width: auto;
-    max-width: 100%; /* Adjust the max-width based on your needs */
-    min-height: 200px; /* Minimum height to fit the content */
+    max-width: 100%; 
+    min-height: 200px;
     border-radius: 15px;
     color: #f2dca6; 
     font-size: 30px;
@@ -306,9 +306,8 @@ textarea {
     border-radius: 5px;
     overflow: visible;
     font-family: "gridlite-pe-variable", sans-serif;
-    resize: both; /* Allows vertical resizing only */
-    overflow-wrap: break-word; /* Ensures long text wraps within the container */
-    /* Includes padding in the width */
+    resize: both; 
+    overflow-wrap: break-word; 
 }
 
 
@@ -326,41 +325,40 @@ textarea {
 
 }
 .quiltemojis{
-    display: inline-block; /* Ensures the design stays as a block inside the span */
-    font-family: 'Courier New', monospace; /* Use a monospaced font for proper alignment */
-    font-size: 30px; /* Adjust to your desired size */
-    letter-spacing: 0.1em; /* Fine-tune space between characters */
-    text-align: center; /* Centers the text */
+    display: inline-block; 
+    font-family: 'Courier New', monospace; 
+    font-size: 30px; 
+    letter-spacing: 0.1em; 
+    text-align: center;
     color: #000000;
 }
 
 #dataDisplay {
-    display: grid; /* Grid layout for responsive design */
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Responsive columns */
-    gap: 16px; /* Space between responses */
-    justify-content: center; /* Center the grid items */
-    align-items: flex-start; /* Align items to the top */
+    display: grid; 
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); 
+    gap: 16px; 
+    justify-content: center;
+    align-items: flex-start; 
     margin-top: 30px;
     position: relative;
-    padding: 0 16px; /* Padding for better spacing */
+    padding: 0 16px; 
 }
 
-/* Larger block for responses with more than 60 words */
 .response-large {
-    grid-column: span 2; /* Makes the item take up the full width of the grid */
+    grid-column: span 2; 
     font-size: 22px;
-    background-color: #FFD700; /* Same background */
+    background-color: #FFD700; 
     -webkit-text-stroke-width: 0.5px;
     -webkit-text-stroke-color: black;
     color: #000000;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     word-wrap: break-word;
     text-align: center;
-    padding: 20px; /* Increased padding for larger response */
+    padding: 20px; 
     border-radius: 8px;
     transition: transform 0.2s, background-color 0.2s;
     box-sizing: border-box;
-    max-width: 100%; /* Ensures no overflow */
+    max-width: 100%; 
 } 
 
 .response-lie {
@@ -398,19 +396,19 @@ textarea {
     overflow-wrap: break-word;
     text-align: center;
     display: flex;
-    flex-direction: column; /* Stack the content vertically */
-    justify-content: center; /* Center content vertically */
-    align-items: center; /* Center content horizontally */
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
     background-color: #ffd700;
     -webkit-text-stroke-width: 0.5px;
     -webkit-text-stroke-color: black;
     color: #000000;
-    margin: 10px; /* Consistent spacing */
+    margin: 10px; 
     padding: 15px;
     border-radius: 8px;
     transition: transform 0.2s, background-color 0.2s;
     box-sizing: border-box;
-    max-width: 100%; /* Allow it to fill the space without overflowing */
+    max-width: 100%; 
 }
 
 
@@ -438,7 +436,7 @@ textarea {
 .response-style-21:hover,
 .response-style-22:hover,
 .response-style-23:hover {
-    transform: scale(1.05); /* Slightly enlarge on hover */
+    transform: scale(1.05); 
     color: #000;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
@@ -464,7 +462,7 @@ textarea {
 .example {
     font-family: "gridlite-pe-variable", sans-serif;
     font-variation-settings: 'wght' 900, 'BACK' 200, 'RECT' 200, 'ELSH' 3;
-    font-size: 45px; /* Default size, can be overridden inline */
+    font-size: 45px; 
   }
   
 .div3 { 
@@ -548,32 +546,32 @@ textarea {
     color: #962c53;
 }
 .art-design {
-    display: inline-block; /* Ensures the design stays as a block inside the span */
-    font-family: 'Courier New', monospace; /* Use a monospaced font for proper alignment */
-    font-size: 30px; /* Adjust to your desired size */
-    white-space: pre; /* Preserve spaces and line breaks */
-    line-height: 1.5; /* Adjust for spacing between lines */
-    letter-spacing: 0.1em; /* Fine-tune space between characters */
-    text-align: center; /* Centers the text */
+    display: inline-block; 
+    font-family: 'Courier New', monospace; 
+    font-size: 30px; 
+    white-space: pre; 
+    line-height: 1.5; 
+    letter-spacing: 0.1em; 
+    text-align: center; 
     color: #962c53;
-    padding: 10px; /* Add padding for better visual spacing */
-    border-radius: 5px; /* Optional rounded edges */
+    padding: 10px; 
+    border-radius: 5px; 
     -webkit-text-stroke-width: .5px;
     -webkit-text-stroke-color: black;
 }
 .art-design:hover {
-    transform: scale(1.05); /* Slightly enlarge on hover */
+    transform: scale(1.05); 
     color: #962c53;
 }
 @media only screen and (max-width: 767px) {
     .form-group {
-        width: 100%; /* Full width for mobile */
-        padding: 10px; /* Ensure padding works */
-        max-width: 100%; /* Remove any fixed max-width */
+        width: 100%; 
+        padding: 10px; 
+        max-width: 100%; 
     }
 
     .whitelies {
-        display: none; /* Hide images or fixed elements causing overflow */
+        display: none; 
     }
     .whitelies2 {
         display: block;
@@ -595,9 +593,9 @@ textarea {
         font-size: 22px;
     }
 
-    /* Fix for any other fixed-width elements */
+   
     .container img {
-        width: 100%; /* Ensure images scale */
+        width: 100%; 
         max-width: 100%;
     }
 
